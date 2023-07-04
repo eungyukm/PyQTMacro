@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1020</width>
+    <height>1308</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="check_mouse_position_button">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>980</y>
+     <width>401</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>마우스 위치 확인 (F3)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mouse_position_label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>20</y>
+     <width>831</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>21</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>마우스 위치</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="click_saved_position_button">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>1150</y>
+     <width>401</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>마우스 저장 위치 클릭 (F6)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="click_saved_position_button_2">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>980</y>
+     <width>401</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>중지 (F4)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="time_click_button">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>1150</y>
+     <width>401</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>시간 반복 (F5)</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="time_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>509</y>
+     <width>831</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>430</y>
+     <width>811</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>마우스 클릭 반복 시간 (초)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>140</y>
+     <width>811</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>메모리 프로파일 위치</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="memory_profile_edit">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>210</y>
+     <width>831</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="check_memory_profile_button">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>290</y>
+     <width>831</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>프로파일 경로 설정</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="screnn_shot_time_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>859</y>
+     <width>831</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>780</y>
+     <width>811</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>스크린 샷 반복 시간 (초)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="select_directory_button">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>690</y>
+     <width>831</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>스크린 샷 위치 설정</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="directory_label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>600</y>
+     <width>811</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>스크린샷 경로</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
